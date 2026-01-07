@@ -92,17 +92,29 @@ WAITING → READY → IN_PROGRESS → COMPLETED / SKIPPED
 ## Canonical Workflow
 
 Product
+
 ↓
+
 Template (versioned, immutable)
+
 ↓
+
 Product + Template
+
 ↓
+
 Order
+
 ↓
+
 Template Snapshot (clone)
+
 ↓
+
 Job [n]
+
 ↓
+
 JobStep [m]
 
 ---
